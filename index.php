@@ -6,6 +6,9 @@ try {
     ini_set('display_errors', true);
     error_reporting(E_ALL ^E_NOTICE);
 
+    $dotenv = Dotenv\Dotenv::create(__DIR__);
+    $dotenv->load();
+
     $message = new Swift_Message();
     $message->setSubject(getenv('V_ASSUNTO'))
         ->setFrom(getenv('V_REMETENTE'))
