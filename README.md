@@ -11,3 +11,7 @@ Teste de envio de e-mail utilizando swiftmailer.
 ```php
 php -S localhost:8888 -t .
 ```
+ou
+```php
+php index.php
+```
