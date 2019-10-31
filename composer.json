@@ -1,0 +1,17 @@
+{
+    "name": "vinicius/php-swiftmailer-poc",
+    "authors": [
+        {
+            "name": "Vinicius Feitosa da Silva",
+            "email": "viniciusfesil@gmail.com"
+        }
+    ],
+    "require": {
+        "swiftmailer/swiftmailer": "^6.2",
+        "vinnyfs89/x-dump": "^1.1",
+        "vlucas/phpdotenv": "^3.6"
+    },
+    "config": {
+        "disable-tls": true
+    }
+}
